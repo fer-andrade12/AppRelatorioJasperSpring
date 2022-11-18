@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Curso Jasper Report</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+</head>
+<body>
+    <h1>Bem vindo</h1>
+    <br>
+    <h2>Relatório 01</h2>
+    <hr>
+    <a th:href="@{/relatorio/pdf/jr1(code='0',acao='v')}">Abrir</a>
+     <a th:href="@{/relatorio/pdf/jr1(code='0',acao='d')}">Download</a>
+</body>
+</html>
